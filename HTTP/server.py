@@ -3,8 +3,8 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import time
 
 #Definición de host y port
-HOST = "192.168.1.41"
-PORT = 9999
+HOST = "SU DIRECCIÓN IP"
+PORT = "SU PUERTO" #TENGA EN CUENTA QUE EL PUERTO ES UN ENTERO NO UN STRING, POR LO QUE NO DEBE LLEVAR COMILLAS
 
 
 class MiHTTP(SimpleHTTPRequestHandler):
