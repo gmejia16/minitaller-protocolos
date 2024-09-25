@@ -1,6 +1,8 @@
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+#Se importan las clases necesarias para crear el servidor (httpserver) y manejar las solicitudes (simplehttprequesthandler)
+from http.server import HTTPServer, SimpleHTTPRequestHandler    
 import time
 
+#Definición de host y port
 HOST = "192.168.1.41"
 PORT = 9999
 
